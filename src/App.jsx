@@ -1,16 +1,13 @@
-// import styles from "./style";
-import { Navbar } from "../components";
+import "./App.css";
 
-const App = () => {
-  return (
-    <div className="">
-      <div className="}">
-        <div className="">
-          <Navbar />
-        </div>
-      </div>
-    </div>
-  );
-};
+function App() {
+	return (
+		<>
+			<div className="text-red-400 font-bold min-h-screen flex justify-center items-center">
+				Hello World
+			</div>
+		</>
+	);
+}
 
 export default App;
