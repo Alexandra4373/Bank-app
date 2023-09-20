@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-slate-800 flex md:flex-row flex-col sm:py-16 py-6">
       <div className="flex-1  justify-center items-start flex-col  xl:px-0 sm:px-16 px-6">
-        <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-2/4">
+        <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
           <img src={discount} alt="discount" className="[32px] h-[32px]" />
 
           <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]  ml-2">
