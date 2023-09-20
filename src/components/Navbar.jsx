@@ -4,7 +4,7 @@ import { logo } from "../assets";
 const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="hoobank" className="w-32 h-8]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li>
