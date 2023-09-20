@@ -1,11 +1,14 @@
-import "./App.css";
-import { Navbar } from "./components";
+import { Navbar, Hero } from "./components";
 
 function App() {
   return (
     <>
-      <div className="bg-primary w-full overflow-hidden">
+      <div className="">
         <Navbar />
+      </div>
+
+      <div className="">
+        <Hero />
       </div>
     </>
   );
