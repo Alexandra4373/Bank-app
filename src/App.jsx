@@ -41,7 +41,7 @@ function App() {
           <h1 className=" flex-1 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             Payment Method.
           </h1>
-          <p className="flex-1 w-60 text-[18px] text-white">
+          <p className="flex-1 w-2/4 text-[10px] mt-5 font-thin text-white">
             Our team of experts uses a methodology to identify the credit cards
             most likely to fit your needs. We examine annual percentage rates,
             annual fees.
