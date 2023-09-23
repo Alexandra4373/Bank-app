@@ -2,7 +2,7 @@ import { logo, discount, robot } from "./assets";
 
 function App() {
   return (
-    <div className="">
+    <div className="font-poppins">
       <nav className="bg-slate-800 w-full flex py-6 justify-between items-center navbar pl-10">
         <img src={logo} alt="hoobank" className="w-32 h-8]" />
 
@@ -22,9 +22,9 @@ function App() {
         </ul>
       </nav>
 
-      <div className="bg-slate-800 flex md:flex-col sm:py-16 pl-12">
+      <div className="bg-slate-800 flex   md:flex-row sm:flex-col sm:py-16 pl-12">
         <div className="flex-1  justify-center items-start flex-col  xl:px-0 sm:px-16 px-6">
-          <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-1/4">
+          <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
             <img src={discount} alt="discount" className="[32px] h-[32px]" />
 
             <p className="font-poppins font-normal text-white text-[16px] leading-[30.8px]  ml-2">

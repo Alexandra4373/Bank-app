@@ -6,6 +6,16 @@ export default {
 			poppins: ["Poppins", "sans-serif"],
 			
 		},
+		screens: {
+			sm: "370px",
+			// => @media (min-width: 440px) { ... }
+
+			md: "720px",
+			// => @media (min-width: 1024px) { ... }
+
+			lg: "1280px",
+			// => @media (min-width: 1280px) { ... }
+		},
 		// colors: {
 		// 	primary: "#00040f",
 		// 	secondary: "#00f6ff",
