@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="font-poppins">
       <nav className="bg-slate-800 w-full flex py-6 justify-between items-center navbar pl-10">
-        <img src={logo} alt="hoobank" className="w-32 h-8]" />
+        <img src={logo} alt="hoobank" className="w-32 h-8" />
 
-        <ul className=" text-white list-none sm:flex hidden justify-end items-center flex-1 gap-10 px-40 cursor-pointer ">
+        <ul className=" text-white list-none sm:flex hidden md:flex-row sm:flex-col justify-end items-center flex-1 gap-10 px-40 cursor-pointer ">
           <li>
             <a href="#Home">Home</a>
           </li>
@@ -33,7 +33,7 @@ function App() {
             </p>
           </div>
 
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[56px] text-white ss:leading-[100.8px] leading-[75px">
+          <h1 className="flex-1 font-poppins font-bold ss:text-[72px] text-[56px] text-white ss:leading-[100.8px] leading-[75px">
             The Next <br className="sm:block hidden" />
             <span className="text-gradient ">Generation</span>
           </h1>
