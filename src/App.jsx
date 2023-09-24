@@ -69,6 +69,31 @@ function App() {
           <img src={robot} alt="billing" className="w-[80%] h-[80%] " />
         </div>
       </div>
+
+      <div className="bg-slate-800 py-20 ">
+        <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
+          <ul className=" flex justify-center items-center gap-10 font-poppins font-semibold text-white text-[28px] leading-[43.16px] ">
+            <li>
+              3800+
+              <span className="text-gradient ml-5 text-[18px]">
+                USER ACTIVE
+              </span>
+            </li>
+            <li>
+              230+
+              <span className="text-gradient ml-5 text-[18px]">
+                TRUSTED BY COMPANY
+              </span>
+            </li>
+            <li>
+              $230M+
+              <span className="text-gradient ml-5 text-[18px]">
+                TRANSACTION
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

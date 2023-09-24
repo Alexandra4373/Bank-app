@@ -23,6 +23,11 @@ export default {
 		// 	dimBlue: "rgba(9, 151, 124, 0.1)",
 		// },
 		extend: {
+			flexCenter:{
+				display: "flex",
+				center: true,
+
+			}
 			
 		},
 	},
