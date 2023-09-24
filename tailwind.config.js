@@ -25,6 +25,11 @@ export default {
 		extend: {
 			colors:{
 				primary: "#FFFFFF",
+			} ,
+
+			container:{
+				padding: "1rem" ,
+				center: true ,
 
 			}
 			
