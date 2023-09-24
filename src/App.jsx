@@ -3,7 +3,7 @@ import { logo, discount, robot, arrowUp, star, shield, send } from "./assets";
 function App() {
   return (
     <div className="font-poppins">
-      <nav className="bg-slate-800 w-full flex py-6 justify-between items-center navbar pl-10">
+      <nav className="bg-slate-800 w-full flex py-6 justify-between items-center pl-10 ">
         <img src={logo} alt="hoobank" className="w-32 h-8" />
 
         <ul className=" text-white list-none sm:flex hidden md:flex-row sm:flex-col justify-end items-center flex-1 gap-10 px-40 cursor-pointer ">
@@ -22,8 +22,8 @@ function App() {
         </ul>
       </nav>
       {/* Hero */}
-      <div className="bg-slate-800 flex   md:flex-row sm:flex-col sm:py-16 pl-12">
-        <div className="flex-1  justify-center items-start flex-col  xl:px-0 sm:px-16 px-6">
+      <div className="bg-slate-800 flex  md:flex-row sm:flex-col">
+        <div className="container flex-1  flex-col ">
           <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
             <img src={discount} alt="discount" className="[32px] h-[32px]" />
 
@@ -113,17 +113,17 @@ function App() {
               <button className="mt-5"> Get started</button>
             </div>
           </div>
-          <div className="flex-1 ">
-            <div className="flex flex-wrap">
+          <div className="flex-1 text-white">
+            <div className="flex flex-wrap grow">
               <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={star} alt="" />
               </div>
-              <p className="">Rewards</p>
-              <p className="">
+              <p className="text-base">Rewards</p>
+              <p className="text-[12px]">
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
-              <div className="">
+              <div className="bg-slate-600 border-2 rounded-r-xl">
                 <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                   <img src={shield} alt="" />
                 </div>
