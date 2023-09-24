@@ -116,19 +116,17 @@ function App() {
             <div className="mb-5 flex justify-start">
               <img src={star} alt="" />
             </div>
-            <p className="font-poppins font-semibold text-[26px] mb-5 ">
-              Rewards
-            </p>
-            <p className="font-poppins text-base ">
+            <p className="font-poppins font-semibold text-[26px]  ">Rewards</p>
+            <p className="font-poppins">
               The best credit cards offer some tantalizing combinations of
               promotions and prizes
             </p>
           </div>
-          <div className="flex-1 p-10 bg-white ">
-            <div className="mb-5 flex justify-start">
+          <div className="flex-1 bg-primary ">
+            <div className="flex justify-start">
               <img src={shield} alt="" />
             </div>
-            <p className="font-poppins font-semibold text-[26px] mb-5 ">
+            <p className="font-poppins font-semibold text-[26px] ">
               100% Secured
             </p>
             <p className="font-poppins">
@@ -137,11 +135,11 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex-1 p-10 ">
-          <div className="mb-5 flex justify-start">
+        <div className="flex-1 ">
+          <div className="flex justify-start">
             <img src={send} alt="" />
           </div>
-          <p className="font-poppins font-semibold text-[26px] mb-5">
+          <p className="font-poppins font-semibold text-[26px]">
             Balance Transfer
           </p>
           <p className="font-poppins">
