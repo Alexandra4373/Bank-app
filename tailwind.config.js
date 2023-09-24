@@ -25,6 +25,7 @@ export default {
 		extend: {
 			colors:{
 				primary: "#FFFFFF",
+				secondary: "09977C" ,
 			} ,
 
 			container:{

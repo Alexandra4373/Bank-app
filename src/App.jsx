@@ -104,18 +104,18 @@ function App() {
               You do the business, <br className="sm:block hidden" /> we’ll
               handle the money.{" "}
             </h1>
-            <p className=" font-poppins font-light text-white text-[18px] leading-[30.8px] mt-5">
+            <p className=" font-poppins font-light text-white text-[12px] w-1/2 mt-5">
               With the right credit card, you can improve your financial life by
               building credit, earning rewards and saving money. But with
               hundreds of credit cards on the market.
             </p>
             <div className="">
-              <button className=""> Get started</button>
+              <button className="mt-5"> Get started</button>
             </div>
           </div>
           <div className="flex-1 ">
-            <div className="">
-              <div className="">
+            <div className="flex flex-wrap">
+              <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={star} alt="" />
               </div>
               <p className="">Rewards</p>
@@ -124,7 +124,7 @@ function App() {
                 promotions and prizes
               </p>
               <div className="">
-                <div className="">
+                <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                   <img src={shield} alt="" />
                 </div>
                 <p className="">100% Secured</p>
@@ -135,7 +135,7 @@ function App() {
               </div>
             </div>
             <div className="">
-              <div className="">
+              <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={send} alt="" />
               </div>
               <p className="font-poppins">Balance Transfer</p>
