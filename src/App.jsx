@@ -1,4 +1,4 @@
-import { logo, discount, robot, arrowUp } from "./assets";
+import { logo, discount, robot, arrowUp, star, shield, send } from "./assets";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           </li>
         </ul>
       </nav>
-
+      {/* Hero */}
       <div className="bg-slate-800 flex   md:flex-row sm:flex-col sm:py-16 pl-12">
         <div className="flex-1  justify-center items-start flex-col  xl:px-0 sm:px-16 px-6">
           <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
@@ -70,12 +70,14 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-slate-800 py-20 ">
-        <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
+      {/* Stats*/}
+      <div className="bg-slate-800 py-20 flex sm:flex-wrap sm:items-center sm:justify-center">
+        <div className="">
           <ul className=" flex justify-center items-center gap-10 font-poppins font-semibold text-white text-[28px] leading-[43.16px] ">
             <li>
               3800+
-              <span className="text-gradient ml-5 text-[18px]">
+              {/* <hr className="h-0.1 rotate-90" /> */}
+              <span className="font-poppins font-normal text-gradient ml-5 text-[18px]">
                 USER ACTIVE
               </span>
             </li>
@@ -94,7 +96,62 @@ function App() {
           </ul>
         </div>
       </div>
+
+      <div className=" bg-slate-800 flex md:flex-row sm:flex-col gap-20 justify-center items-center py-10">
+        <div className="flex-1 flex gap-5 items-start flex-col">
+          <h1 className="font-poppins font-bold text-[18px]">
+            You do the business, we’ll handle the money.{" "}
+          </h1>
+          <p className="font-poppins font-light">
+            With the right credit card, you can improve your financial life by
+            building credit, earning rewards and saving money. But with hundreds
+            of credit cards on the market.
+          </p>
+
+          <div className=" text-white  text-base">
+            <button className="bg-blue my-30"> Get started</button>
+          </div>
+
+          <div className="flex-1">
+            <div className="mb-5 flex justify-center">
+              <img src={star} alt="" />
+            </div>
+            <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+              Rewards
+            </p>
+            <p className="font-poppins text-base text-center">
+              The best credit cards offer some tantalizing combinations of
+              promotions and prizes
+            </p>
+          </div>
+          <div className="flex-1 p-10 bg-primary text-white">
+            <div className="mb-5 flex justify-center">
+              <img src={shield} alt="" />
+            </div>
+            <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+              100% Secured
+            </p>
+            <p className="font-dmsans text-base text-center">
+              We take proactive steps make sure your information and
+              transactions are secure.
+            </p>
+          </div>
+        </div>
+        <div className="flex-1 p-10 bg-white">
+          <div className="mb-5 flex justify-center">
+            <img src={send} alt="" />
+          </div>
+          <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+            Balance Transfer
+          </p>
+          <p className="font-dmsans text-base text-center">
+            A balance transfer credit card can save you a lot of money in
+            interest charges.
+          </p>
+        </div>
+      </div>
     </div>
+    // </div>
   );
 }
 
