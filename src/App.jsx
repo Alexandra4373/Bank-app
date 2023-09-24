@@ -108,43 +108,43 @@ function App() {
             of credit cards on the market.
           </p>
 
-          <div className=" text-white  text-base">
+          <div className="text-white  text-base">
             <button className="bg-blue my-30"> Get started</button>
           </div>
 
           <div className="flex-1">
-            <div className="mb-5 flex justify-center">
+            <div className="mb-5 flex justify-start">
               <img src={star} alt="" />
             </div>
-            <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+            <p className="font-poppins font-semibold text-[26px] mb-5 ">
               Rewards
             </p>
-            <p className="font-poppins text-base text-center">
+            <p className="font-poppins text-base ">
               The best credit cards offer some tantalizing combinations of
               promotions and prizes
             </p>
           </div>
-          <div className="flex-1 p-10 bg-primary text-white">
-            <div className="mb-5 flex justify-center">
+          <div className="flex-1 p-10 bg-white ">
+            <div className="mb-5 flex justify-start">
               <img src={shield} alt="" />
             </div>
-            <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+            <p className="font-poppins font-semibold text-[26px] mb-5 ">
               100% Secured
             </p>
-            <p className="font-dmsans text-base text-center">
+            <p className="font-poppins">
               We take proactive steps make sure your information and
               transactions are secure.
             </p>
           </div>
         </div>
-        <div className="flex-1 p-10 bg-white">
-          <div className="mb-5 flex justify-center">
+        <div className="flex-1 p-10 ">
+          <div className="mb-5 flex justify-start">
             <img src={send} alt="" />
           </div>
-          <p className="font-poppins font-semibold text-[26px] mb-5 text-center">
+          <p className="font-poppins font-semibold text-[26px] mb-5">
             Balance Transfer
           </p>
-          <p className="font-dmsans text-base text-center">
+          <p className="font-poppins">
             A balance transfer credit card can save you a lot of money in
             interest charges.
           </p>
