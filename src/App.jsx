@@ -256,14 +256,14 @@ function App() {
       <div className="bg-black py-20">
         {/* top  footer */}
         <div className="flex container flex-wrap md:flex-row sm:flex-col">
-          <div className="flex-1 sm:mb-5">
+          <div className="flex-1 sm:mb-10">
             <img src={logo} alt="" />
-            <p className="text-white">
+            <p className="text-white mt-5">
               A new way to make the payments easy, reliable and secure.
             </p>
           </div>
 
-          <div className="flex-1 sm:mb-5">
+          <div className="flex-1 sm:mb-10">
             <p className="mb-4 text-white">Useful Links</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Content </li>
@@ -274,7 +274,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="flex-1 sm:mb-5">
+          <div className="flex-1 sm:mb-10">
             <p className="mb-4 text-white">Community</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Help Center </li>
@@ -285,7 +285,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="flex-1 sm:mb-5">
+          <div className="flex-1 sm:mb-10">
             <p className="mb-4 text-white">Partner</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Our Partner</li>
