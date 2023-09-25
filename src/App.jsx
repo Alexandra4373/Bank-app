@@ -14,6 +14,10 @@ import {
   coinbase,
   binance,
   dropbox,
+  instagram,
+  facebook,
+  twitter,
+  linkedin,
 } from "./assets";
 
 function App() {
@@ -231,7 +235,7 @@ function App() {
         </div>
       </div>
 
-      <div className=" bg-slate-800 ">
+      <div className=" bg-slate-800 py-20 ">
         <div className="container flex gap-10 justify-center items-center">
           <div className="flex-1 justify-center items-center">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
@@ -247,7 +251,76 @@ function App() {
             <button className=""> Get started</button>
           </div>
         </div>
-        <div className=""></div>
+      </div>
+      {/* footer */}
+      <div className="bg-black py-20">
+        {/* top  footer */}
+        <div className="flex container flex-wrap md:flex-row sm:flex-col">
+          <div className="flex-1 sm:mb-5">
+            <img src={logo} alt="" />
+            <p className="text-white">
+              A new way to make the payments easy, reliable and secure.
+            </p>
+          </div>
+
+          <div className="flex-1 sm:mb-5">
+            <p className="mb-4">Useful Links</p>
+            <ul className="text-white flex flex-col gap-2">
+              <li>Content </li>
+              <li>How it works </li>
+              <li>Create </li>
+              <li>Explore </li>
+              <li>Terms&Services </li>
+            </ul>
+          </div>
+
+          <div className="flex-1 sm:mb-5">
+            <p className="mb-4">Community</p>
+            <ul className="text-white flex flex-col gap-2">
+              <li>Help Center </li>
+              <li>Partners</li>
+              <li>Suggestions </li>
+              <li>Blog </li>
+              <li>Newsletters </li>
+            </ul>
+          </div>
+
+          <div className="flex-1 sm:mb-5">
+            <p className="mb-4">Partner</p>
+            <ul className="text-white flex flex-col gap-2">
+              <li>Our Partner</li>
+              <li>Become a Partner</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr className="my-8" />
+
+        <div className="" />
+        {/* Top footer */}
+        <div className="flex sm:flex-wrap justify-between mb-5">
+          <div className="">
+            <p className="flex text-white sm:flex-col sm:mb-5 gap-5">
+              <p> Copyright &copy; 2021 Hoobank. All rights reserved.</p>
+            </p>
+          </div>
+
+          {/* Social icons */}
+          <div className="flex gap-5">
+            <div className="">
+              <img src={instagram} />
+            </div>
+            <div className="">
+              <img src={facebook} />
+            </div>
+            <div className="">
+              <img src={twitter} />
+            </div>
+            <div className="">
+              <img src={linkedin} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
