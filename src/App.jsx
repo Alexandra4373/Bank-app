@@ -263,7 +263,7 @@ function App() {
             </p>
           </div>
 
-          <div className="flex-1 sm:mb-10">
+          <div className="flex-1 sm:mb-10 sm:ml-1 ml-10">
             <p className="mb-4 text-white">Useful Links</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Content </li>
@@ -297,10 +297,10 @@ function App() {
         <hr className="my-8" />
 
         <div className="" />
-        {/* Top footer */}
+        {/* bottom footer */}
         <div className="flex sm:flex-wrap justify-between mb-5">
           <div className="">
-            <p className="flex text-white sm:flex-col sm:mb-5 gap-5">
+            <p className="flex text-white sm:flex-col sm:mb-5">
               <p> Copyright &copy; 2021 Hoobank. All rights reserved.</p>
             </p>
           </div>
