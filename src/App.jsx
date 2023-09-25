@@ -10,6 +10,10 @@ import {
   apple,
   google,
   card,
+  airbnb,
+  coinbase,
+  binance,
+  dropbox,
 } from "./assets";
 
 function App() {
@@ -206,6 +210,44 @@ function App() {
             <img src={card} />
           </div>
         </div>
+      </div>
+
+      <div className="bg-slate-800 py-20">
+        <div className="container flex flex-col justify-center items-center ">
+          <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
+            <div className="">
+              <img src={airbnb} alt="" />
+            </div>
+            <div className="">
+              <img src={binance} alt="" />
+            </div>
+            <div className="">
+              <img src={coinbase} alt="" />
+            </div>
+            <div className="">
+              <img src={dropbox} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" bg-slate-800 ">
+        <div className="container flex gap-10 justify-center items-center">
+          <div className="flex-1 justify-center items-center">
+            <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
+              Let’s try our service now!
+            </h1>
+            <p className="font-poppins font-thin text-white text-[12px] w-2/3 mt-10 tracking-wider">
+              Everything you need to accept card payments and grow your business
+              anywhere on the planet.
+            </p>{" "}
+          </div>
+
+          <div className="flex-1">
+            <button className=""> Get started</button>
+          </div>
+        </div>
+        <div className=""></div>
       </div>
     </div>
   );
