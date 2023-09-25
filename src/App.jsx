@@ -98,48 +98,48 @@ function App() {
       </div>
       {/* Business */}
       <div className=" bg-slate-800  ">
-        <div className="container flex gap-10">
+        <div className="container flex gap-10 w-[1170px] h-[383px]">
           <div className="flex-1">
-            <h1 className="font-poppins text-[30px] leading-[30px] text-white">
-              You do the business, <br className="sm:block hidden" /> we’ll
-              handle the money.{" "}
+            <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
+              You do the business, <br className="sm:block hidden" />{" "}
+              <h1 className="mt-5">we’ll handle the money. </h1>
             </h1>
-            <p className=" font-poppins font-light text-white text-[12px] w-1/2 mt-5">
+            <p className=" font-poppins font-thin text-white text-[12px] w-2/3 mt-10 tracking-wider">
               With the right credit card, you can improve your financial life by
               building credit, earning rewards and saving money. But with
               hundreds of credit cards on the market.
             </p>
             <div className="">
-              <button className="mt-5"> Get started</button>
+              <button className="mt-10"> Get started</button>
             </div>
           </div>
           <div className="flex-1 text-white">
-            <div className="flex flex-wrap">
-              <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
+            <div className="flex flex-wrap ">
+              <div className="flex border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={star} alt="" />
               </div>
-              <p className="text-base">Rewards</p>
-              <p className="text-[12px]">
+              <p className="text-base ">Rewards</p>
+              <p className="font-extralight text-[14px]">
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
-              <div className="bg-slate-600 border-2 rounded-3xl">
+              <div className="bg-slate-600 border-2 rounded-3xl mt-5">
                 <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                   <img src={shield} alt="" />
                 </div>
                 <p className="">100% Secured</p>
-                <p className="">
+                <p className="font-poppins font-extralight text-[14px]">
                   We take proactive steps make sure your information and
                   transactions are secure.
                 </p>
               </div>
             </div>
-            <div className="">
+            <div className="mt-5">
               <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={send} alt="" />
               </div>
               <p className="font-poppins">Balance Transfer</p>
-              <p className="font-poppins">
+              <p className="font-poppins font-extralight text-[14px]">
                 A balance transfer credit card can save you a lot of money in
                 interest charges.
               </p>
