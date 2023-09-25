@@ -264,7 +264,7 @@ function App() {
           </div>
 
           <div className="flex-1 sm:mb-5">
-            <p className="mb-4">Useful Links</p>
+            <p className="mb-4 text-white">Useful Links</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Content </li>
               <li>How it works </li>
@@ -275,7 +275,7 @@ function App() {
           </div>
 
           <div className="flex-1 sm:mb-5">
-            <p className="mb-4">Community</p>
+            <p className="mb-4 text-white">Community</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Help Center </li>
               <li>Partners</li>
@@ -286,7 +286,7 @@ function App() {
           </div>
 
           <div className="flex-1 sm:mb-5">
-            <p className="mb-4">Partner</p>
+            <p className="mb-4 text-white">Partner</p>
             <ul className="text-white flex flex-col gap-2">
               <li>Our Partner</li>
               <li>Become a Partner</li>
