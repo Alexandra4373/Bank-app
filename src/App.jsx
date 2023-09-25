@@ -1,4 +1,16 @@
-import { logo, discount, robot, arrowUp, star, shield, send } from "./assets";
+import {
+  logo,
+  discount,
+  robot,
+  arrowUp,
+  star,
+  shield,
+  send,
+  bill,
+  apple,
+  google,
+  card,
+} from "./assets";
 
 function App() {
   return (
@@ -22,9 +34,9 @@ function App() {
         </ul>
       </nav>
       {/* Hero */}
-      <div className="bg-slate-800 flex  md:flex-row sm:flex-col">
-        <div className="container flex-1  flex-col ">
-          <div className="flex  flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
+      <div className="bg-slate-800 py-20 flex  md:flex-row sm:flex-col ">
+        <div className="container flex-1 flex-col w-full ">
+          <div className="flex flex-row items-center bg-black py-[6px] px-4 rounded-[10px] mb-2 w-3/4">
             <img src={discount} alt="discount" className="[32px] h-[32px]" />
 
             <p className="font-poppins font-normal text-white text-[16px] leading-[30.8px]  ml-2">
@@ -39,7 +51,7 @@ function App() {
           </h1>
 
           <div className="flex justify-center items-center border-blue-gradient border-2 w-[100px] h-[100px] rounded-full bg-blue p-[2px] cursor-pointer">
-            <div className="flex flex-col justify-center items-center bg-primary w-[100%] h-[100%] rounded-full text-center">
+            <div className="flex flex-col justify-center items-center w-[100%] h-[100%] rounded-full text-center">
               <div className="flex items-center">
                 <p className="font-poppins font-medium text-[17px] leading-[23.4px] text-gradient">
                   Get
@@ -65,7 +77,7 @@ function App() {
             annual fees.
           </p>
         </div>
-        <div className="flex-1 justify-end ">
+        <div className="flex-1  ">
           <img src={robot} alt="billing" className="w-[80%] h-[80%] " />
         </div>
       </div>
@@ -97,8 +109,8 @@ function App() {
         </div>
       </div>
       {/* Business */}
-      <div className=" bg-slate-800  ">
-        <div className="container flex gap-10 w-[1170px] h-[383px]">
+      <div className=" bg-slate-800 py-20 ">
+        <div className="container flex gap-10 ">
           <div className="flex-1">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
               You do the business, <br className="sm:block hidden" />{" "}
@@ -113,13 +125,13 @@ function App() {
               <button className="mt-10"> Get started</button>
             </div>
           </div>
-          <div className="flex-1 text-white">
-            <div className="flex flex-wrap ">
+          <div className="flex-1 text-white  w-2/4 h-2/4 ">
+            <div className="flex flex-wrap">
               <div className="flex border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={star} alt="" />
               </div>
-              <p className="text-base ">Rewards</p>
-              <p className="font-extralight text-[14px]">
+              <p className="text-start ">Rewards</p>
+              <p className="font-extralight text-[14px] text-start">
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
@@ -134,11 +146,11 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="mt-5">
+            <div className="mt-10">
               <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={send} alt="" />
               </div>
-              <p className="font-poppins">Balance Transfer</p>
+              <p className="font-poppins ">Balance Transfer</p>
               <p className="font-poppins font-extralight text-[14px]">
                 A balance transfer credit card can save you a lot of money in
                 interest charges.
@@ -147,8 +159,55 @@ function App() {
           </div>
         </div>
       </div>
+      {/* Bill section */}
+      <div className="bg-slate-800 py-20">
+        <div className="container flex gap-20">
+          <div className="w-2/4 h-2/4">
+            <img src={bill} alt="" />
+          </div>
+          <div className="flex-1 text-white ">
+            <h1 className="font-medium text-white text-[38px]">
+              Easily control your
+              <br className="sm:block hidden" />{" "}
+              <h1 className="mt-3"> billing & invoicing.</h1>
+            </h1>
+
+            <p className="font-extralight text-[11px] w-3/5 tracking-wider mt-10">
+              Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
+              aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
+              placerat.
+            </p>
+
+            <div className="flex mt-20 ">
+              <img src={apple} alt="" />
+              <img src={google} alt="" className="px-3" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Card section */}
+      <div className="bg-slate-800 py-20">
+        <div className="container flex gap-10">
+          <div className="flex-1 mt-5">
+            <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
+              Find a better card deal <br className="sm:block hidden" />{" "}
+              <h1 className="mt-5">in few easy steps. </h1>
+            </h1>
+            <p className=" font-poppins font-thin text-white text-[12px] w-2/3 mt-10 tracking-wider">
+              Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
+              aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+            </p>
+            <div className="">
+              <button className="mt-10"> Get started</button>
+            </div>
+          </div>
+
+          <div className="flex-1 w-2/5 h-1/4 ">
+            <img src={card} />
+          </div>
+        </div>
+      </div>
     </div>
-    // </div>
   );
 }
 
