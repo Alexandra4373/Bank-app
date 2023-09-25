@@ -91,7 +91,7 @@ function App() {
       </div>
 
       {/* Stats*/}
-      <div className="bg-slate-800 py-20 flex sm:flex-col md:flex-row">
+      <div className="bg-slate-800 py-20 flex sm:flex-wrap sm:items-center sm:justify-center">
         <div className="">
           <ul className=" flex justify-center items-center gap-10 font-poppins font-semibold text-white text-[28px] leading-[43.16px] ">
             <li>
@@ -118,7 +118,7 @@ function App() {
       </div>
       {/* Business */}
       <div className=" bg-slate-800 py-20 ">
-        <div className="container flex sm:flex-col md:flex-row gap-10 ">
+        <div className="container flex gap-10 ">
           <div className="flex-1">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
               You do the business, <br className="sm:block hidden" />{" "}
@@ -169,7 +169,7 @@ function App() {
       </div>
       {/* Bill section */}
       <div className="bg-slate-800 py-20">
-        <div className="container flex sm:flex-col md:flex-row gap-20">
+        <div className="container flex gap-20">
           <div className="w-2/4 h-2/4">
             <img src={bill} alt="" />
           </div>
@@ -195,7 +195,7 @@ function App() {
       </div>
       {/* Card section */}
       <div className="bg-slate-800 py-20">
-        <div className="container flex sm:flex-col md:flex-row gap-10">
+        <div className="container flex  gap-10">
           <div className="flex-1 mt-5">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
               Find a better card deal <br className="sm:block hidden" />{" "}
