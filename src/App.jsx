@@ -114,7 +114,7 @@ function App() {
             </div>
           </div>
           <div className="flex-1 text-white">
-            <div className="flex flex-wrap grow">
+            <div className="flex flex-wrap">
               <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                 <img src={star} alt="" />
               </div>
@@ -123,7 +123,7 @@ function App() {
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
-              <div className="bg-slate-600 border-2 rounded-r-xl">
+              <div className="bg-slate-600 border-2 rounded-3xl">
                 <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
                   <img src={shield} alt="" />
                 </div>
