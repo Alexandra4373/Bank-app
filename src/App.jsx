@@ -255,7 +255,7 @@ function App() {
       {/* footer */}
       <div className="bg-black py-20">
         {/* top  footer */}
-        <div className="flex container flex-wrap md:flex-row sm:flex-col">
+        <div className="flex container font-poppins flex-wrap md:flex-row sm:flex-col">
           <div className="flex-1 sm:mb-10">
             <img src={logo} alt="" />
             <p className="text-white mt-5">
@@ -265,7 +265,7 @@ function App() {
 
           <div className="flex-1 sm:mb-10 sm:ml-1 ml-10">
             <p className="mb-4 text-white">Useful Links</p>
-            <ul className="text-white flex flex-col gap-2">
+            <ul className="text-white font-extralight  flex flex-col gap-2">
               <li>Content </li>
               <li>How it works </li>
               <li>Create </li>
@@ -276,7 +276,7 @@ function App() {
 
           <div className="flex-1 sm:mb-10">
             <p className="mb-4 text-white">Community</p>
-            <ul className="text-white flex flex-col gap-2">
+            <ul className="text-white font-extralight flex flex-col gap-2">
               <li>Help Center </li>
               <li>Partners</li>
               <li>Suggestions </li>
@@ -287,7 +287,7 @@ function App() {
 
           <div className="flex-1 sm:mb-10">
             <p className="mb-4 text-white">Partner</p>
-            <ul className="text-white flex flex-col gap-2">
+            <ul className="text-white font-extralight flex flex-col gap-2">
               <li>Our Partner</li>
               <li>Become a Partner</li>
             </ul>
