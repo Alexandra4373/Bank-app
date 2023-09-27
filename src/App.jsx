@@ -237,26 +237,28 @@ function App() {
         </div>
 
         <div className="py-20">
-          <div className="container flex gap-10">
-            <div className="flex-1">
+          <div className="container flex gap-10 flex-row sm:flex-col md:flex-row">
+            <div className="flex-1 rounded-lg border-gray-500">
               <img src={quotes} />
-              <h1 className="">
+              <h1 className="text-white">
                 Money is only a tool. It will take you wherever you wish, but it
                 will not replace you as the driver.
               </h1>
-              <div className="">
-                <img src={people01} />
-                <h1 className="">Herman Jensen</h1>
-                <p className="">Founder & Leader</p>
+              <div className="flex flex-row mt-5 ">
+                <img src={people01} className="w-1/6 h-1/6" />
+                <div className="text-white  ">
+                  <h1 className="">Herman Jensen</h1>
+                  <p className="">Founder & Leader</p>
+                </div>
               </div>
             </div>
             <div className="flex-1">
               <img src={quotes} />
-              <h1 className="">
+              <h1 className="text-white">
                 Money makes your life easier. If you're lucky to have it, you're
                 lucky.
               </h1>
-              <div className="">
+              <div className="text-white">
                 <img src={people02} />
                 <h1 className="">Steve Mark</h1>
                 <p className="">Founder & Leader</p>
@@ -264,11 +266,11 @@ function App() {
             </div>
             <div className="flex-1">
               <img src={quotes} />
-              <h1 className="">
+              <h1 className="text-white">
                 It is usually people in the money business, finance, and
                 international trade that are really rich.
               </h1>
-              <div className="">
+              <div className="text-white">
                 <img src={people03} />
                 <h1 className="">Kenn Gallagher</h1>
                 <p className="">Founder & Leader</p>

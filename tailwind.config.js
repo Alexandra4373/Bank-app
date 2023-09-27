@@ -29,7 +29,7 @@ export default {
 			} ,
 
 			container:{
-				padding: "1.5rem" ,
+				padding: "2rem" ,
 				center: true ,
 
 			}
