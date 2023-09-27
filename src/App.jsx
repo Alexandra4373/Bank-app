@@ -18,6 +18,10 @@ import {
   facebook,
   twitter,
   linkedin,
+  quotes,
+  people01,
+  people02,
+  people03,
 } from "./assets";
 
 function App() {
@@ -212,6 +216,64 @@ function App() {
 
           <div className="flex-1 w-2/5 h-1/4 ">
             <img src={card} />
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-slate-800 py-20">
+        <div className="container flex">
+          <div className="flex-1">
+            <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
+              What are people <br className="sm:block hidden" />{" "}
+              <h1 className="mt-5">saying about us </h1>
+            </h1>
+          </div>
+          <div className="flex-1">
+            <p className=" font-poppins font-thin text-white text-[14px] w-2/3 mt-5 tracking-wider">
+              Everything you need to accept card payments and grow your business
+              anywhere on the planet.
+            </p>
+          </div>
+        </div>
+
+        <div className="py-20">
+          <div className="container flex gap-10">
+            <div className="flex-1">
+              <img src={quotes} />
+              <h1 className="">
+                Money is only a tool. It will take you wherever you wish, but it
+                will not replace you as the driver.
+              </h1>
+              <div className="">
+                <img src={people01} />
+                <h1 className="">Herman Jensen</h1>
+                <p className="">Founder & Leader</p>
+              </div>
+            </div>
+            <div className="flex-1">
+              <img src={quotes} />
+              <h1 className="">
+                Money makes your life easier. If you're lucky to have it, you're
+                lucky.
+              </h1>
+              <div className="">
+                <img src={people02} />
+                <h1 className="">Steve Mark</h1>
+                <p className="">Founder & Leader</p>
+              </div>
+            </div>
+            <div className="flex-1">
+              <img src={quotes} />
+              <h1 className="">
+                It is usually people in the money business, finance, and
+                international trade that are really rich.
+              </h1>
+              <div className="">
+                <img src={people03} />
+                <h1 className="">Kenn Gallagher</h1>
+                <p className="">Founder & Leader</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
