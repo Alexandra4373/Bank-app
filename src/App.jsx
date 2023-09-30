@@ -238,42 +238,48 @@ function App() {
 
         <div className="py-20">
           <div className="container flex gap-10 flex-row sm:flex-col md:flex-row">
-            <div className="flex-1 rounded-lg border-gray-500">
+            <div className="flex-1 w-1/3">
               <img src={quotes} />
-              <h1 className="text-white">
+              <h1 className="text-white mt-5">
                 Money is only a tool. It will take you wherever you wish, but it
                 will not replace you as the driver.
               </h1>
               <div className="flex flex-row mt-5 ">
                 <img src={people01} className="w-1/6 h-1/6" />
-                <div className="text-white  ">
+                <div className="text-white pl-3 pt-3">
                   <h1 className="">Herman Jensen</h1>
                   <p className="">Founder & Leader</p>
                 </div>
               </div>
             </div>
-            <div className="flex-1">
+
+            <div className="flex-1 ">
               <img src={quotes} />
-              <h1 className="text-white">
+              <h1 className="text-white mt-5">
                 Money makes your life easier. If you're lucky to have it, you're
                 lucky.
               </h1>
-              <div className="text-white">
-                <img src={people02} />
-                <h1 className="">Steve Mark</h1>
-                <p className="">Founder & Leader</p>
+              <div className="flex flex-row mt-5">
+                <img src={people02} className="w-1/6 h-1/6" />
+                <div className="text-white pl-3 pt-3">
+                  <h1 className="">Steve Mark</h1>
+                  <p className="">Founder & Leader</p>{" "}
+                </div>
               </div>
             </div>
+
             <div className="flex-1">
               <img src={quotes} />
-              <h1 className="text-white">
+              <h1 className="text-white mt-5">
                 It is usually people in the money business, finance, and
                 international trade that are really rich.
               </h1>
-              <div className="text-white">
-                <img src={people03} />
-                <h1 className="">Kenn Gallagher</h1>
-                <p className="">Founder & Leader</p>
+              <div className="flex flex-row mt-5">
+                <img src={people03} className="w-1/6 h-1/6" />
+                <div className="text-white pl-3 pt-3">
+                  <h1 className="">Kenn Gallagher</h1>
+                  <p className="">Founder & Leader</p>
+                </div>
               </div>
             </div>
           </div>
