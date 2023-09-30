@@ -238,8 +238,8 @@ function App() {
 
         <div className="py-20">
           <div className="container flex gap-10 flex-row sm:flex-col md:flex-row">
-            <div className="flex-1 w-1/3">
-              <img src={quotes} />
+            <div className="flex-1">
+              <img src={quotes} className="" />
               <h1 className="text-white mt-5">
                 Money is only a tool. It will take you wherever you wish, but it
                 will not replace you as the driver.
@@ -287,8 +287,8 @@ function App() {
       </div>
 
       <div className="bg-slate-800 py-20">
-        <div className="container flex flex-row sm:flex-col md:flex-row justify-center items-center ">
-          <div className="gap-10 flex sm:flex-wrap sm:items-center sm:justify-center">
+        <div className="container flex flex-row sm:flex-col md:flex-row justify-center items-center">
+          <div className="gap-2 flex sm:flex-wrap sm:items-center sm:justify-center">
             <div className="">
               <img src={airbnb} alt="" />
             </div>
@@ -335,7 +335,7 @@ function App() {
 
           <div className="flex-1 sm:mb-10 sm:ml-1 ml-10">
             <p className="mb-4 text-white">Useful Links</p>
-            <ul className="text-white font-extralight  flex flex-col gap-2">
+            <ul className="text-white font-extralight flex flex-col gap-2">
               <li>Content </li>
               <li>How it works </li>
               <li>Create </li>
