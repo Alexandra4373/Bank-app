@@ -237,18 +237,20 @@ function App() {
         </div>
 
         <div className="py-20">
-          <div className="container flex gap-10 flex-row sm:flex-col md:flex-row">
-            <div className="flex-1">
+          <div className="container flex  gap-10 flex-row sm:flex-col md:flex-row">
+            <div className="flex-1 font-poppins rounded-md border border-black w-2/3 h-1/4 bg-black p-5">
               <img src={quotes} className="" />
-              <h1 className="text-white mt-5">
+              <h1 className="text-white text-[16px] font-extralight w-2/3 h-1/3 mt-5">
                 Money is only a tool. It will take you wherever you wish, but it
                 will not replace you as the driver.
               </h1>
-              <div className="flex flex-row mt-5 ">
-                <img src={people01} className="w-1/6 h-1/6" />
-                <div className="text-white pl-3 pt-3">
-                  <h1 className="">Herman Jensen</h1>
-                  <p className="">Founder & Leader</p>
+              <div className="flex flex-row mt-10 ">
+                3<img src={people01} className="w-10  pt-4" />
+                <div className="text-white pl-2 pt-5">
+                  <h1 className="text-[14px]">Herman Jensen</h1>
+                  <p className="text-[12px]  font-extralight">
+                    Founder & Leader
+                  </p>
                 </div>
               </div>
             </div>
@@ -306,7 +308,7 @@ function App() {
       </div>
 
       <div className=" bg-slate-800 py-20 ">
-        <div className="container flex sm:flex-col md:flex-row gap-10 justify-center items-center">
+        <div className="container flex rounded-md border border-slate-200 w-5/6 sm:flex-col md:flex-row gap-10 justify-center items-center">
           <div className="flex-1 justify-center items-center">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
               Let’s try our service now!
