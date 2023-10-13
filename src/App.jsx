@@ -77,9 +77,9 @@ function App() {
                 percentage rates, annual fees.
               </p>
             </div>
-            <div className="flex-1 justify-center items-center border rounded-full  w-[50%] h-[50%]  cursor-pointer">
-              <div className="flex flex-col justify-center items-center text-center">
-                <div className="flex items-center">
+            <div className="flex-1 justify-center items-center  cursor-pointer">
+              <div className="flex flex-col justify-center items-center ">
+                <div className="flex ">
                   <p className="font-poppins font-medium text-[17px] leading-[23.4px] text-gradient">
                     Get
                   </p>
