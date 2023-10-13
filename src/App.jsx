@@ -83,11 +83,7 @@ function App() {
                   <p className="font-poppins font-medium text-[17px] leading-[23.4px] text-gradient">
                     Get
                   </p>
-                  <img
-                    src={arrowUp}
-                    alt="arrow-up"
-                    className="w-[23px] h-[23px] "
-                  />
+                  <img src={arrowUp} alt="arrow-up" />
                 </div>
                 <p className="font-poppins font-medium text-[17px] leading-[23.4px] text-gradient">
                   Started
