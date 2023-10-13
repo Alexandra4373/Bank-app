@@ -152,15 +152,17 @@ function App() {
                 promotions and prizes
               </p>
 
-              <div className="flex flex-col border-0 rounded-xl bg-primary p-5 mt-5">
-                <div className="flex">
+              <div className="flex border-0 rounded-xl bg-primary p-5 mt-5">
+                <div className="items-center p-2">
                   <img src={shield} alt="" className="items-start" />
                 </div>
-                <p className="">100% Secured</p>
-                <p className="font-poppins font-extralight text-[14px]">
-                  We take proactive steps make sure your information and
-                  transactions are secure.
-                </p>
+                <div className="">
+                  <p className="text-[18px] mp-3">100% Secured</p>
+                  <p className="font-poppins font-extralight text-[14px] ">
+                    We take proactive steps make sure your information and
+                    transactions are secure.
+                  </p>
+                </div>
               </div>
             </div>
 
