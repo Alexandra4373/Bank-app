@@ -200,6 +200,7 @@ function App() {
           </div>
         </div>
       </div>
+
       {/* Card section */}
       <div className="bg-slate-800 py-20">
         <div className="container flex  gap-10">
@@ -241,14 +242,14 @@ function App() {
 
         <div className="py-20">
           <div className="container flex  gap-10 flex-row sm:flex-col md:flex-row">
-            <div className="flex-1 font-poppins rounded-md border border-black w-2/3 h-1/4 bg-black p-5">
+            <div className="flex-1 font-poppins border rounded w-2/3 h-1/4  p-5">
               <img src={quotes} className="" />
               <h1 className="text-white text-[16px] font-extralight w-2/3 h-1/3 mt-5">
                 Money is only a tool. It will take you wherever you wish, but it
                 will not replace you as the driver.
               </h1>
               <div className="flex flex-row mt-10 ">
-                3<img src={people01} className="w-10  pt-4" />
+                <img src={people01} className="w-10  pt-4" />
                 <div className="text-white pl-2 pt-5">
                   <h1 className="text-[14px]">Herman Jensen</h1>
                   <p className="text-[12px]  font-extralight">
