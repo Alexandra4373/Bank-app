@@ -164,10 +164,10 @@ function App() {
               </div>
             </div>
 
-            <div className="flex-col p-5">
-              <div className="flex ">
-                <img src={send} alt="" />
-              </div>
+            <div className="flex flex-row">
+              <img src={send} alt="" />
+            </div>
+            <div className="">
               <p className="font-poppins ">Balance Transfer</p>
               <p className="font-poppins font-extralight text-[14px]">
                 A balance transfer credit card can save you a lot of money in
