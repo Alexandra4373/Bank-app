@@ -140,19 +140,21 @@ function App() {
               <button className="mt-10"> Get started</button>
             </div>
           </div>
-          <div className="flex-1 text-white  w-2/4 h-2/4 ">
-            <div className="flex flex-wrap">
-              <div className="flex border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
+          {/* Business */}
+          <div className="flex-1 text-white  ">
+            <div className="flex flex-col p-5">
+              <div className="flex">
                 <img src={star} alt="" />
               </div>
-              <p className="text-start ">Rewards</p>
+              <p className=" ">Rewards</p>
               <p className="font-extralight text-[14px] text-start">
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
-              <div className="bg-slate-600 border-2 rounded-3xl mt-5">
-                <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
-                  <img src={shield} alt="" />
+
+              <div className="flex flex-col border-0 rounded-xl bg-primary p-5 mt-5">
+                <div className="flex">
+                  <img src={shield} alt="" className="items-start" />
                 </div>
                 <p className="">100% Secured</p>
                 <p className="font-poppins font-extralight text-[14px]">
@@ -161,8 +163,9 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="mt-10">
-              <div className="flex justify-center items-center border-white bg-secondary border-2 w-[45px] h-[45px] rounded-full">
+
+            <div className="flex-col p-5">
+              <div className="flex ">
                 <img src={send} alt="" />
               </div>
               <p className="font-poppins ">Balance Transfer</p>
@@ -242,7 +245,7 @@ function App() {
 
         <div className="py-20">
           <div className="container flex  gap-10 flex-row sm:flex-col md:flex-row">
-            <div className="flex-1 font-poppins border rounded w-2/3 h-1/4  p-5">
+            <div className="flex-1 font-poppins border-0 rounded-xl bg-primary w-2/3 h-1/4  p-5">
               <img src={quotes} className="" />
               <h1 className="text-white text-[16px] font-extralight w-2/3 h-1/3 mt-5">
                 Money is only a tool. It will take you wherever you wish, but it
@@ -312,7 +315,7 @@ function App() {
       </div>
 
       <div className=" bg-slate-800 py-20 ">
-        <div className="container flex rounded-md border border-slate-200 w-5/6 sm:flex-col md:flex-row gap-10 justify-center items-center">
+        <div className="container flex border-0 rounded-xl bg-primary p-10 w-5/6 sm:flex-col md:flex-row gap-10 justify-center items-center">
           <div className="flex-1 justify-center items-center">
             <h1 className="font-poppins text-[38px] font-medium leading-[30px] text-white">
               Let’s try our service now!
